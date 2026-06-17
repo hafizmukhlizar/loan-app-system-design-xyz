@@ -1,5 +1,19 @@
 # High Level Design Architecture
 
+## Assumptions
+
+1. Verifikasi identitas dilakukan melalui layanan verifikasi KTP pihak ketiga.
+
+2. Credit scoring dilakukan menggunakan layanan credit scoring pihak ketiga.
+
+3. Pengguna hanya dapat memiliki satu pinjaman aktif pada satu waktu.
+
+4. Maksimum nominal pinjaman adalah Rp12.000.000 dengan tenor maksimum 12 bulan.
+
+5. Pembayaran cicilan tidak termasuk dalam scope aplikasi dan dilakukan melalui channel pembayaran eksternal.
+
+6. Login biometrik hanya tersedia pada perangkat yang mendukung fitur biometrik.
+
 ## Architecture Diagram
 ```
 +--------------------------------------------------+
