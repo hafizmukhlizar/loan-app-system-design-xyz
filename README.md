@@ -11,5 +11,5 @@ PT. XYZ adalah perusahaan fintech yang berkomitmen untuk memperluas jangkauan la
 2. **[Design Screen Flow](docs/02-screen-flow.png)**
 3. **[Entity Relationship Diagram (ERD)](docs/03-erd.png)**
 4. **[Design API](docs/04-api-design.md)**
-5. **[Screen Behaviour](docs/05-screen-behavior.md)**
+5. **[Screen Behavior](docs/05-screen-behavior.md)**
 
